@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    android:orientation="vertical"
+    tools:context=".What">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+            android:text="Filipino Sign Language (FSL) or Philippine Sign Language, is a form of manual and visual communication used by the deaf and those who are unable to speak in the Philippines. This is a vocabulary of signs and symbols communicated through the use of the hands of a person trained in this skill, particularly those who cannot hear and the mute, but also includes those who served as interpreters for this form of communication."
+
+            />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="17dp"
+            android:text="FSL has a very strong influence from American Sign Language (ASL). Some Deaf even go as far as saying that only ASL is true sign language and FSL is just some kind of home gestures. Also there is a strong influence of Signing Exact English (SEE) which is used in most of the schools for the Deaf in this country."/>
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="17dp"
+            android:text="Total communication is used in deaf schools, with teachers both speaking and signing. Used by the USA Peace Corps, American Sign Language is well known as a second language. Population of users estimate at about 300,000 hearing impaired individuals and about 100,000 to 4.2 million people who have hearing problems."
+            />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="17dp"
+            android:text="In 2003, the Philippine Federation of the Deaf conducted a project for three years to develop dictionaries and teaching materials as well as a database of sign language data. It was funded with the assistance of the Japanese government. "
+            />
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:textSize="13dp"
+            android:text="Source: Psychology Wiki"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

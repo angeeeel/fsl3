@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slit"
+    tools:context=".More"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More about Filipino Sign Language"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:id="@+id/what"
+        android:layout_width="390dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="What is Filipino Sign Language?"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+
+    <Button
+        android:id="@+id/law"
+        android:layout_width="390dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="Republic Act No. 11106"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="390dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@android:color/transparent"
+        android:gravity="center"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+</LinearLayout>

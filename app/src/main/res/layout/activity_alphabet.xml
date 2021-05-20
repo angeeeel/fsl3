@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abcd"
+    tools:context=".Alphabet">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filipino Sign Language Alphabet"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="30dp"
+        android:typeface="serif"/>
+
+
+    <ViewFlipper
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/viewflipper">
+
+        <ImageView
+            android:id="@+id/aa"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/aa" />
+
+        <ImageView
+            android:id="@+id/bb"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/bb"/>
+
+        <ImageView
+            android:id="@+id/cc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/cc"/>
+
+        <ImageView
+            android:id="@+id/dd"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/dd"/>
+
+        <ImageView
+            android:id="@+id/ee"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/ee"/>
+
+        <ImageView
+            android:id="@+id/ff"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/ff"/>
+
+        <ImageView
+            android:id="@+id/gg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/gg"/>
+
+        <ImageView
+            android:id="@+id/hh"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/hh"/>
+        <ImageView
+            android:id="@+id/ii"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/ii"/>
+
+        <ImageView
+            android:id="@+id/jj"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/jj"/>
+        <ImageView
+            android:id="@+id/kk"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/kk"/>
+
+        <ImageView
+            android:id="@+id/ll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/ll"/>
+        <ImageView
+            android:id="@+id/mm"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/mm"/>
+        <ImageView
+            android:id="@+id/nn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/nn"/>
+        <ImageView
+            android:id="@+id/oo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/oo"/>
+        <ImageView
+            android:id="@+id/pp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/pp"/>
+        <ImageView
+            android:id="@+id/qq"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/qq"/>
+        <ImageView
+            android:id="@+id/rr"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/rr"/>
+        <ImageView
+            android:id="@+id/ss"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/ss"/>
+        <ImageView
+            android:id="@+id/tt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/tt"/>
+        <ImageView
+            android:id="@+id/uu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/uu"/>
+        <ImageView
+            android:id="@+id/vv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/vv"/>
+        <ImageView
+            android:id="@+id/ww"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/ww"/>
+        <ImageView
+            android:id="@+id/xx"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/xx"/>
+        <ImageView
+            android:id="@+id/yy"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/yy"/>
+        <ImageView
+            android:id="@+id/zz"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/zz"/>
+
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/black"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"
+        android:background="@android:color/transparent"/>
+
+
+</RelativeLayout>
